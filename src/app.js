@@ -30,7 +30,7 @@ app.get("/index", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About Me",
-    name: "Indian Soldier"
+    name: "Chalapathi"
   });
 });
 
@@ -76,7 +76,7 @@ app.get("/weather", (req, res) => {
 app.get("/help", (req, res) => {
   res.render("help", {
     title: "Help Me",
-    name: "Hepling is a Good thing"
+    name: "Chalapathi"
   });
 });
 
