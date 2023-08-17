@@ -9,8 +9,9 @@ const messageThree = document.getElementById("iconic");
 weatherform.addEventListener("submit", (e) => {
   e.preventDefault();
   console.log(search.value);
-  fetch("http://localhost:3000/weather?address=" + search.value).then((response) => {
+  fetch("https://weatherapp-v1ic.onrender.com/weather?address=" + search.value).then((response) => {
     // https://weatherapp-v1ic.onrender.com/weather?address=
+    // http://localhost:3000/weather?address=
     response.json().then((data) => {
       if (data.err) {
         messageOne.textContent = data.err;
