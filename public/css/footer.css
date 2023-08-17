@@ -1,0 +1,14 @@
+.footer a{
+    text-decoration: none;
+}
+
+.footer a:active{
+    color: aqua;
+    text-decoration: overline;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+}

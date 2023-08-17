@@ -1,0 +1,9 @@
+.ama a{
+    text-decoration: none;
+}
+
+.ama a:active{
+    color: aqua;
+    text-decoration: overline;
+
+}
